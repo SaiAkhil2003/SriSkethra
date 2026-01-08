@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Skhetra | Divine Mantras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blobs"></div> 
+    
+    <main class="glass-container">
+        <header>
+            <h1>Sri Skhetra</h1>
+            <p>Connect with the Divine across every region.</p>
+        </header>
+
+        <section class="selection-area">
+            <div class="form-group">
+                <label>Choose Region</label>
+                <select id="regionSelect">
+                    <option value="">Select Region</option>
+                    <option value="east">East India</option>
+                    <option value="west">West India</option>
+                    <option value="north">North India</option>
+                    <option value="south">South India</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Select Deity</label>
+                <select id="godSelect" disabled>
+                    <option value="">Select God</option>
+                </select>
+            </div>
+
+            <button id="submitBtn" class="primary-btn">Seek Mantras</button>
+        </section>
+
+        <section id="resultArea" class="mantra-display hidden">
+            <h2 id="godNameDisplay"></h2>
+            <div id="mantraContent"></div>
+        </section>
+    </main>
+
+    <audio id="bgMusic">
+        <source src="resources/ambient.mpeg" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
