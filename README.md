@@ -40,8 +40,5 @@ It blends **Indian spiritual heritage** with **modern web technology** to provid
 - HTML Audio API
 
 No frameworks or external libraries are used.
-
----
-
 ## 📂 Project Structure
 
